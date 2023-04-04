@@ -1,15 +1,23 @@
+import styled from 'styled-components'
 import logo from '../../imagens/logo.svg'
-import './logo.css'
+
+const LogoContainer = styled.div`
+display: flex;
+font-size: 30px;
+`
+
+const LogoImage = styled.img`
+margin-right: 10px;
+`
 
 export const Logo = () => {
   return (
-      <div className='logo'>
-        <img src={logo}
+      <LogoContainer>
+        <LogoImage  
+          src={logo}
           alt='logo da página'
-          className='logo-img'>
-        </img>
-        <p>Portal dos Filmes</p> 
-        
-      </div>
+        />
+        <p><strong> Portal </strong> Filmes </p> 
+      </LogoContainer>
   )
 }

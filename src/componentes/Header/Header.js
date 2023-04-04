@@ -1,14 +1,22 @@
-import './Header.css'
 import { Icones } from "../Icones/icones"
 import { Lista } from "../Lista/lista"
 import { Logo } from "../Logo"
+import styled from 'styled-components'
+
+const HeaderContainer = styled.header`
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  space-around: middle;
+  padding: 0px 230px ;
+`
 
 export const Header = () => {
     return (
-      <header className='App-header'>
+      <HeaderContainer>
         <Logo/>
         <Lista/>
         <Icones/>
-    </header>
+      </HeaderContainer>
     )
 }
