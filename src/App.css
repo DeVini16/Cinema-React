@@ -5,38 +5,3 @@
 }
 
 
-.App-header {
-  background-color: #FFF;
-  display: flex;
-  justify-content: center;
-}
-
-.lista{
-  list-style: none;
-  display: flex;
-}
-
-.listados{
-  font-size: 18px;
-  min-width: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  padding: 0 5px;
-  cursor: pointer;
-}
-
-.icon{
-  display: flex;
-  align-items: center;
-
-}
-
-.icone{
-  margin-right: 40px;
-  width: 25px;
-  list-style: none;
-
-}
