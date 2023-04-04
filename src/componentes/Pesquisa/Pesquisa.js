@@ -29,7 +29,7 @@ export const Pesquisa = () => {
           placeholder='O que quer ver?'
           onBlur={ evento => {
             const textoDigitado = evento.target.value
-            const resultadoPesquisa = filmes.filter( filme => filmes.nome.includes(textoDigitado) )
+            const resultadoPesquisa = filmes.filter( filmes => filmes.nome.includes(textoDigitado) )
             setFilmesPesquisados(resultadoPesquisa)
           }}
           />
