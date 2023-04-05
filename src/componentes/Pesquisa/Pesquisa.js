@@ -33,9 +33,9 @@ export const Pesquisa = () => {
             setFilmesPesquisados(resultadoPesquisa)
           }}
           />
-        { filmesPesquisados.map(filme => (
+        { filmesPesquisados.map(filmes => (
           <div>
-            <img src={filmes.src} />
+            <img src={filmes.src} alt=''/>
             <p>{filmes.nome}</p>
           </div>
         ))}
